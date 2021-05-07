@@ -6,9 +6,9 @@
 }
 
 :root{
-  --theme-main: #121930;
-  --theme-bright: #FFFCE1;
-  --theme-secondary: #daacbd;
+  --theme-main: #07AB80;
+  --theme-bright: #f5f5f5;
+  --theme-secondary: #8F8E98;
 }
 
 body{
@@ -25,16 +25,17 @@ p, small {
   font-family: 'Lato', sans-serif;
 }
 
-.navbar-border{
+/* .navbar-border{ 
   border-bottom: 1px solid var(--theme-bright);
 }
+*/
 
 .lorem-bar-size{
   font-size: 30px;
 }
 
 .bg-img-top{
-  background-image: url(https://i.redd.it/y7gkmomp84c51.png);
+  background-image: url(//placehold.it/2000x700.png);
 }
 
 .bg-div-text{
