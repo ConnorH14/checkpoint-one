@@ -1,9 +1,6 @@
 /* font-family: 'Lato', sans-serif; */
 /* font-family: 'Ubuntu', sans-serif; */
 
-*{
-  outline: 1px solid red;
-}
 
 :root{
   --theme-main: #07AB80;
@@ -46,11 +43,21 @@ p, small {
 .spill-card{
   position: absolute;
 }
-
 .spill-card i{
   color: var(--theme-main);
   font-size: 1.5em;
   margin-right: 15px;
+}
+
+.big-text-box h1{
+  font-size: 3rem;
+}
+.big-text-box p{
+  font-size: 1rem;
+}
+.big-text-box i{
+  font-size: 1.5em;
+  margin-right: 10px;
 }
 
 .theme-main{
@@ -81,4 +88,15 @@ p, small {
     position: relative;
     margin-bottom: 35px;
   }
+  .big-text-box h1{
+    font-size: 24px;
+  }
+  .big-text-box p{
+    font-size: 16px;
+  }
+  .big-text-box i{
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  
 }
