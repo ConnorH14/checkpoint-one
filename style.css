@@ -34,7 +34,12 @@ p, small {
 }
 
 .bg-img-top{
-  background-image: url(//placehold.it/2000x700.png);
+  background-image: url(tree-bg.jpg);
+}
+
+.hide-text{
+  color: var(--theme-bright);
+  text-shadow: 1px 1px black;
 }
 
 .bg-div-text{
